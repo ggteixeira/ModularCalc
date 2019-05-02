@@ -1,10 +1,10 @@
 # Módulos:
-def plus(parcela1=int, parcela2=int):
+def plus(parcela1, parcela2):
     return parcela1 + parcela2
 
+
 def minus(minuendo, subtraendo):
-    resultado_subtracao = minuendo - subtraendo
-    return resultado_subtracao
+    return minuendo - subtraendo
 
 
 def times(fator1, fator2):

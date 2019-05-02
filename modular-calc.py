@@ -20,10 +20,12 @@ while True:
 
     if entrada_usuario == 2:
         print("Você escolheu: Subtração!\n")
+
         minuendo = input("Insira o minuendo: \n")
         subtraendo = input("Insira o subtraendo: \n")
+
         resposta_diferenca = minus(int(minuendo), int(subtraendo))
-        print("O resultado da diferença é: %s." % (resposta_diferenca))
+        print(f"O resultado da diferença é {minus(int(minuendo), int(subtraendo))}")
 
     if entrada_usuario == 3:
         print("Você escolheu multiplicação!\n")
