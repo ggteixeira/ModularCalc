@@ -14,8 +14,10 @@ while True:
 
     if entrada_usuario == 1:
         print("Você escolheu: Adição!\n")
+
         parcela1 = input("Adição: Insira a primeira parcela: \n")
         parcela2 = input("Adição: Insira a segunda parcela: \n")
+
         print(f"A soma é: {plus(int(parcela1), int(parcela2))}")
 
     if entrada_usuario == 2:
@@ -28,6 +30,7 @@ while True:
 
     if entrada_usuario == 3:
         print("Você escolheu multiplicação!\n")
+
         fator1 = input("Digite o primeiro fator: \n")
         fator2 = input("Digite o segundo fator: \n")
 
@@ -35,10 +38,11 @@ while True:
 
     if entrada_usuario == 4:
         print("Você escolheu divisão!")
+
         dividendo = input("Insira um dividendo: \n")
         divisor = input("Insira um divisor: \n")
-        resposta_division = division(int(dividendo), int(divisor))
-        print("A resposta da divisão é: %s" % (resposta_division))
+
+        print(f"A resposta da divisão é {division(int(dividendo), int(divisor))}")
 
     if entrada_usuario == 5:
         print("Você escolheu porcentagem!\n")
