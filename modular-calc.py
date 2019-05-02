@@ -48,8 +48,7 @@ while True:
         print("Você escolheu porcentagem!\n")
         total = input("Porcentagem: Qual o total de páginas? \n")
         lido = input("Porcentagem: Quantas páginas já foram lidas? \n")
-        resposta_porcentagem = percentagem(int(lido), int(total))
-        print("Você leu: %s%%." % (resposta_porcentagem))
+        print(f"Você leu {percentagem(int(lido), int(total))} do total")
 
     elif entrada_usuario == 0:
         print("Programa encerrado.")

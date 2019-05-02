@@ -12,10 +12,9 @@ def times(fator1, fator2):
 
 
 def division(dividendo, divisor):
-    # quociente = dividendo / divisor
     return round((dividendo / divisor), 0)
 
 
-def percentagem(lido=input, total=input, multiplica=100):
-    resultado_porcentagem = lido / total * multiplica
+def percentagem(lido, total):
+    resultado_porcentagem = lido / total * 100
     return round(resultado_porcentagem, 1)
