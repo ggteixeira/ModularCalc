@@ -24,15 +24,14 @@ while True:
         minuendo = input("Insira o minuendo: \n")
         subtraendo = input("Insira o subtraendo: \n")
 
-        resposta_diferenca = minus(int(minuendo), int(subtraendo))
         print(f"O resultado da diferença é {minus(int(minuendo), int(subtraendo))}")
 
     if entrada_usuario == 3:
         print("Você escolheu multiplicação!\n")
         fator1 = input("Digite o primeiro fator: \n")
         fator2 = input("Digite o segundo fator: \n")
-        resposta_times = times(int(fator1), int(fator2))
-        print("O produto da multiplicação é: %s" % (resposta_times))
+
+        print(f"O produto da multiplicação é {times(int(fator1), int(fator2))}")
 
     if entrada_usuario == 4:
         print("Você escolheu divisão!")

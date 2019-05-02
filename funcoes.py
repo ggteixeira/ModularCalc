@@ -8,8 +8,7 @@ def minus(minuendo, subtraendo):
 
 
 def times(fator1, fator2):
-    produto = fator1 * fator2
-    return produto
+    return fator1 * fator2
 
 
 def division(dividendo, divisor):
