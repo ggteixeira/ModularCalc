@@ -9,15 +9,15 @@ print(
     "Bem-vindo! \n Selecione a operação desejada:\n 1) Adição \n 2) Subtração \n 3) Multiplicação \n 4) Divisão \n 5) Percentagem \n 0) 0 para sair."
 )
 
-while (input) != 0:
+while True:
     entrada_usuario = int(input("Digite o número da operação desejada: \n"))
 
     if entrada_usuario == 1:
         print("Você escolheu: Adição!\n")
         parcela1 = input("Adição: Insira a primeira parcela: \n")
         parcela2 = input("Adição: Insira a segunda parcela: \n")
-        resposta_soma = plus(int(parcela1), int(parcela2))
-        print("A soma é: %s." % (resposta_soma))
+        print(f"A soma é: {plus(int(parcela1), int(parcela2))}")
+
     if entrada_usuario == 2:
         print("Você escolheu: Subtração!\n")
         minuendo = input("Insira o minuendo: \n")

@@ -1,10 +1,8 @@
 # Módulos:
-def plus(parcela1=input, parcela2=input):
-    resultado_soma = parcela1 + parcela2
-    return resultado_soma
+def plus(parcela1=int, parcela2=int):
+    return parcela1 + parcela2
 
-
-def minus(minuendo=input, subtraendo=input):
+def minus(minuendo, subtraendo):
     resultado_subtracao = minuendo - subtraendo
     return resultado_subtracao
 
